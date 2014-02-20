@@ -1,5 +1,5 @@
 {
-  "name": "progress-component",
+  "name": "component-progress",
   "description": "Progress indicator component",
   "version": "0.0.4",
   "keywords": [
@@ -8,15 +8,7 @@
     "ui"
   ],
   "dependencies": {
-    "autoscale-canvas": "*"
+    "component-autoscale-canvas": "git://github.com/npmcomponent/component-autoscale-canvas.git"
   },
-  "component": {
-    "scripts": {
-      "progress/index.js": "index.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/progress.git"
-  }
+  "license": "MIT"
 }
